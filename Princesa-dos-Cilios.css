@@ -6,6 +6,13 @@
   width: 106px;
   height: 106px;
   margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    height: auto;
+    margin: initial;
+  }
 }.u-section-2 .u-sheet-1 {
   min-height: 450px;
 }
@@ -721,9 +728,8 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 800;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 40px;
+    margin-top: 54px;
+    margin-bottom: 58px;
     padding: 10px 22px;
   }
 }.u-section-6 .u-sheet-1 {
